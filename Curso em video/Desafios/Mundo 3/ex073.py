@@ -1,0 +1,5 @@
+times = ('Brasil', 'Alemanha', 'Russia', 'Groelandia', 'Estados Unidos', 'Japão', 'China','Chapecoense', 'Cruzeiro', 'Coritiba', 'Corinthians', 'Vasco', 'Botafogo', 'Paranaense', 'Paranaense', 'Afogados', 'Catania', 'Dom Bosco', 'Inter de Lages', 'Roma')
+print(f'Os cinco primeiros times foram {times[0:5]}')
+print(f'Os quatro ultimos times foram {times[16:20]}')
+print(f'Os times organizados em ordem alfabetica fica {sorted(times)}')
+print('O time da chapecoense está na posição {}'.format(times.index('Chapecoense')))

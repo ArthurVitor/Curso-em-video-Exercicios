@@ -1,0 +1,5 @@
+frs = str(input('Digite uma frase! '))
+con = frs.count('A')
+print(f'A frase {frs} tem {con} letras "A"')
+print('A primeira vez em que a letra "A" aparace é na posição {}'.format(frs.find('A')+1))
+print('A ultima vez em que a letra "A" aparace é na posição {}'.format(frs.rfind('A')+1))
