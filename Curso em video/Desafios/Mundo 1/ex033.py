@@ -1,11 +1,6 @@
 lista = []
 
-a = int(input('Digite o primeiro valor! '))
-b = int(input('Digite o segundo valor! '))
-c = int(input('Digite o terceiro valor! '))
-lista.append(a)
-lista.append(b)
-lista.append(c)
+valor = int(input('Digite os valores separadamente! ')).split()
 
 print(f'O maior valor da lista foi {max(lista)} e o menor foi {min(lista)}')
 
