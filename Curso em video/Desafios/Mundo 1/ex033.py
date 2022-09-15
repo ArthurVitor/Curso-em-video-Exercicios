@@ -1,6 +1,6 @@
 lista = []
 
-valor = int(input('Digite os valores separadamente! ')).split()
+lista.append(int(input('Digite os valores separadamente! ')).split())
 
 print(f'O maior valor da lista foi {max(lista)} e o menor foi {min(lista)}')
 
